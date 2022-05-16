@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+h1{
+    line-height: 1.3;
+}
+a{
+    color: #444;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.contain{
+    max-width: 1100px;
+    margin-left: 10%;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+.navbar{
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar .contain{
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+}
+.navbar .logo{
+    font-size: 2rem;
+}
+.navbar .nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar .nav a{
+    padding: 0 1rem;
+}
+.navbar .nav a:hover{
+    color: blue;
+}
+li{
+    font-size: 15px;
+}
+.section-b {
+    width: 100%;
+    background: url('im.jpeg') no-repeat bottom center/cover ;
+    height: 700px;
+  }
+  .envir{
+      padding-top: 30px;
+      padding-left: 20px;
+      color: green;
+  }
+  .earth{
+      padding-top: 50px;
+      padding-left: 600px;
+      
+  }
+  .ear{
+      padding-left: 650px;
+  }
+  .section-c {
+    width: 100%;
+    background: url('ear.jpg') no-repeat bottom center/cover ;
+    height: 400px;
+  }
+  .green{
+      padding-left: 150px;
+      padding-top: 50px;
+      color: rgb(246, 250, 253);
+  }
+  .button{
+    
+      color: black;
+      position: absolute;
+    display: inline-block;
+      
+  }
+  .hari{
+      padding-left: 20px;
+  }
+  .gre{
+      padding-left: 150px;
+      
+  }
+  .save{
+      padding-left: 225px;
+      color: green;
+  }
+  
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+  }
+  .item img {
+    cursor: pointer;
+    transition: 0.2s ease;
+    
+  }
+  .item img:hover {
+    transform: scale(1.04);
+  }
+  
+  .item button {
+    background-color: green;
+    color: rgb(9, 9, 9);
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 18px;
+   
+    margin: 0 auto;
+    transition: 0.2s all;
+  }
+  .item button:hover {
+    transform: scale(1.04);
+  }
+  .item {
+    border: 3px  #333 groove;
+  }
+.foot .footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: black;
+}
+h2{
+    color: beige;
+}
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 25px;
+}
+.foot .footer a:hover{
+    color: orangered;
+}.footer li a{
+    color: rgb(250, 243, 243);
+}

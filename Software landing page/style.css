@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+.column{
+    padding: 10px;
+    float: left;
+    height: 200px;
+    width: 33.3%;
+
+}
+.row::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+.right{
+
+    width: auto;
+    padding-top: 5px;
+}
+.left{
+    width:fit-content;
+    padding-left: 600px;
+}
+h1{
+    line-height: 1.3;
+}
+a{
+    color: #444;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.contain{
+    max-width: 1100px;
+    margin-left: 10%;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+.navbar{
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar .contain{
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+}
+.navbar .logo{
+    font-size: 2rem;
+}
+.navbar .nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar .nav a{
+    padding: 0 1rem;
+}
+.navbar .nav a:hover{
+    color: blue;
+}
+.divide{
+    background-color: black;
+}
+.div{
+    float: left;
+    padding: 1px;
+
+
+}
+.divide::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+.war{
+    width: auto;
+
+}
+.hello{
+    width: fit-content;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+    padding-left: 95px;
+    padding-top: 80px;
+}
+.input{
+    padding-left: 200px;
+}
+.txt{
+    padding-left: 200px;
+    color: aliceblue;
+}
+.apps .applogo{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+}
+.apps{
+    background-color: rgb(236, 212, 212);
+    padding-left: 250px;
+    padding-top: 50px;
+}
+.apphi{
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.stu .work{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.stu{
+    background-color: rgb(199, 188, 188);
+    padding-left: 250px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.foot .footer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    background-color: black;
+}
+h2{
+    color: beige;
+}
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 25px;
+}
+.foot .footer a:hover{
+    color: orangered;
+}.footer li a{
+    color: rgb(250, 243, 243);
+}
+
+
+
+
+
+
+
+
